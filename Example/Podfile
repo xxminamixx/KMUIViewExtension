@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KMUIViewExtension_Example' do
+  pod 'KMUIViewExtension', :path => '../'
+
+  target 'KMUIViewExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
