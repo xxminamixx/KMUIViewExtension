@@ -1,0 +1,6 @@
+framework module KMUIViewExtension {
+  umbrella header "KMUIViewExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

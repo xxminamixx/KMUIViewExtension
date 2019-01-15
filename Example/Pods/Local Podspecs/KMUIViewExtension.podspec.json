@@ -1,0 +1,22 @@
+{
+  "name": "KMUIViewExtension",
+  "version": "0.1.0",
+  "summary": "A short description of KMUIViewExtension.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xxminamixx/KMUIViewExtension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xxminamixx": "pencil3215@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/xxminamixx/KMUIViewExtension.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KMUIViewExtension/Classes/**/*"
+}

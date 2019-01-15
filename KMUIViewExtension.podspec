@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KMUIViewExtension'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of KMUIViewExtension.'
+  s.summary          = 'This library allows you to change the properties of UIView on the storyboard.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  This library allows you to change the properties of UIView on the storyboard.
+  DESC
 
   s.homepage         = 'https://github.com/xxminamixx/KMUIViewExtension'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'

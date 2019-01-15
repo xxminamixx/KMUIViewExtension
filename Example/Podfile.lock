@@ -1,0 +1,16 @@
+PODS:
+  - KMUIViewExtension (0.1.0)
+
+DEPENDENCIES:
+  - KMUIViewExtension (from `../`)
+
+EXTERNAL SOURCES:
+  KMUIViewExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KMUIViewExtension: 7cc4957cd017cb2226f071051b3ee1a759c5af26
+
+PODFILE CHECKSUM: 90c4ea557547e8fcf814e82a0577a12e29748310
+
+COCOAPODS: 1.5.3

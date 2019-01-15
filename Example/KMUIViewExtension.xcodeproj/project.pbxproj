@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17AA3515FBECBD035296F03E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		26F02AB95BCEA6AFB5AA0B63 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		17AA3515FBECBD035296F03E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		26F02AB95BCEA6AFB5AA0B63 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3039619A5D3ADA22EA9E4DB1 /* Pods-KMUIViewExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMUIViewExtension_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KMUIViewExtension_Example/Pods-KMUIViewExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
 		34D1BEAD04FA791AEA43959C /* Pods_KMUIViewExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KMUIViewExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A6F2B5009260D83AB25A1F /* Pods-KMUIViewExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMUIViewExtension_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KMUIViewExtension_Tests/Pods-KMUIViewExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		607FACE51AFB9204008FA782 /* KMUIViewExtension_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMUIViewExtension_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		63B565702C4D0E3D748F4FCC /* KMUIViewExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KMUIViewExtension.podspec; path = ../KMUIViewExtension.podspec; sourceTree = "<group>"; };
+		63B565702C4D0E3D748F4FCC /* KMUIViewExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KMUIViewExtension.podspec; path = ../KMUIViewExtension.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D3E098976608EBA4207E57A5 /* Pods-KMUIViewExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMUIViewExtension_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KMUIViewExtension_Tests/Pods-KMUIViewExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D3F8BEBF1FF50B54EB4D176F /* Pods_KMUIViewExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KMUIViewExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */

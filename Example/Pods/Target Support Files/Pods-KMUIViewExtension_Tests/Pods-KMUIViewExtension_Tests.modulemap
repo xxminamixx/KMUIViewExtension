@@ -1,0 +1,6 @@
+framework module Pods_KMUIViewExtension_Tests {
+  umbrella header "Pods-KMUIViewExtension_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
