@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C5F0AFFDC8D9A46E6A2B1B70ABBA3A3 /* KMUIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFC9A2571F14B88837503ACAC8A14E8 /* KMUIViewExtension.swift */; };
 		310AE2D55EF20BD5619440CE3A7E0C69 /* Pods-KMUIViewExtension_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4951D21FC81A3F763C51710E39D02FB /* Pods-KMUIViewExtension_Example-dummy.m */; };
-		46549B8F16B31F8E1466B8C07E035E66 /* KMUIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61C471E2ABB419E90CB093B564CB2CE /* KMUIViewExtension.swift */; };
 		6BBD9426296D65DBA6E401FC7276F908 /* Pods-KMUIViewExtension_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFD5B2C73EE09C5BE8E00F338673DAD7 /* Pods-KMUIViewExtension_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7FA24BD34A33E13F2DA67D6BFD9E70AF /* Pods-KMUIViewExtension_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A916B779E6DDF01E065DAF3A707F839 /* Pods-KMUIViewExtension_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8119A7B07EE433AB4229E673A3F9CED1 /* KMUIViewExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D27F6A50BFDCE2F4B2A8477B8FB123A /* KMUIViewExtension-dummy.m */; };
+		91A2699846915DAB7F14BFFF2319B904 /* KMUIViewExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D574755D42CE64F7D447479CD8DD4C6 /* KMUIViewExtension-dummy.m */; };
 		AF27994A8812355E27FE12700764ED2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		AFB29A4AAF54903136D62A0DDB51234B /* Pods-KMUIViewExtension_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 298D94AD5A03256A16056AFFF714E9AA /* Pods-KMUIViewExtension_Tests-dummy.m */; };
 		BC972ABB2927E5F8D054204E67B203A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		CC960B32D342E8521CF63BD6AA55D84F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		F29EBF8E6E13EF90DFC122AB47B9B189 /* KMUIViewExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6729749CD42E92670FCA4F6175224F47 /* KMUIViewExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F29EBF8E6E13EF90DFC122AB47B9B189 /* KMUIViewExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0842BCF2D951970E50C42D485FC1D5D8 /* KMUIViewExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,40 +37,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0842BCF2D951970E50C42D485FC1D5D8 /* KMUIViewExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KMUIViewExtension-umbrella.h"; sourceTree = "<group>"; };
 		1A4E61A9CB725F608C50F7D03F9267D1 /* Pods-KMUIViewExtension_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KMUIViewExtension_Example-resources.sh"; sourceTree = "<group>"; };
 		2759C56B5898D524B32E96F0A3BE04E5 /* Pods-KMUIViewExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KMUIViewExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2881FCEEF4F91769B042F84F7DA8D920 /* Pods-KMUIViewExtension_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KMUIViewExtension_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		298D94AD5A03256A16056AFFF714E9AA /* Pods-KMUIViewExtension_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KMUIViewExtension_Tests-dummy.m"; sourceTree = "<group>"; };
 		2B4160AB246DFC7DA156EAC088926E40 /* Pods-KMUIViewExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KMUIViewExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3818F201610C149B28855BA818AE2B72 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		41602FC536B66AE76050001792669906 /* KMUIViewExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = KMUIViewExtension.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		46B06E853AB5D77ED91FEF20D8FB06F9 /* Pods_KMUIViewExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KMUIViewExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B06E853AB5D77ED91FEF20D8FB06F9 /* Pods_KMUIViewExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KMUIViewExtension_Example.framework; path = "Pods-KMUIViewExtension_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A916B779E6DDF01E065DAF3A707F839 /* Pods-KMUIViewExtension_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KMUIViewExtension_Example-umbrella.h"; sourceTree = "<group>"; };
 		517FE03A92FDBC141E90F5C13819C5A1 /* Pods-KMUIViewExtension_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KMUIViewExtension_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5B866E8874B925255A80D2CBDAE21FFA /* Pods-KMUIViewExtension_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KMUIViewExtension_Tests.modulemap"; sourceTree = "<group>"; };
-		5D27F6A50BFDCE2F4B2A8477B8FB123A /* KMUIViewExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KMUIViewExtension-dummy.m"; sourceTree = "<group>"; };
+		5C4F290B654CA6CA139CE5DF8928A234 /* KMUIViewExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KMUIViewExtension.modulemap; sourceTree = "<group>"; };
+		5D574755D42CE64F7D447479CD8DD4C6 /* KMUIViewExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KMUIViewExtension-dummy.m"; sourceTree = "<group>"; };
 		5F7442F8DDFD69A83FB46B7D1A3B6CC3 /* Pods-KMUIViewExtension_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KMUIViewExtension_Example-frameworks.sh"; sourceTree = "<group>"; };
-		6729749CD42E92670FCA4F6175224F47 /* KMUIViewExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KMUIViewExtension-umbrella.h"; sourceTree = "<group>"; };
 		6743DFFCE89505E8B82E9FF59710BBDB /* Pods-KMUIViewExtension_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KMUIViewExtension_Tests-resources.sh"; sourceTree = "<group>"; };
 		76EC8A4F213B2EF261286602194EFEB6 /* Pods-KMUIViewExtension_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KMUIViewExtension_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		785A1C481CB7EB5B184BCF72ECDD161D /* KMUIViewExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KMUIViewExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		82C1A77C13AD845FB99EFB5AB1A4A1DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		785A1C481CB7EB5B184BCF72ECDD161D /* KMUIViewExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KMUIViewExtension.framework; path = KMUIViewExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F4958B71505B5D7F615ACD5E44E6AAC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8C1560A482FC5BD6868195A0D73C9786 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DFC9A2571F14B88837503ACAC8A14E8 /* KMUIViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KMUIViewExtension.swift; path = KMUIViewExtension/Classes/KMUIViewExtension.swift; sourceTree = "<group>"; };
 		91DF3E3A454C7CA838F83B7FC06659D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		99A653B101F614023AD7636BE85C86C2 /* KMUIViewExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KMUIViewExtension.xcconfig; sourceTree = "<group>"; };
-		A279093CA0EC473A17A6CA5F6786B0D1 /* KMUIViewExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KMUIViewExtension.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4951D21FC81A3F763C51710E39D02FB /* Pods-KMUIViewExtension_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KMUIViewExtension_Example-dummy.m"; sourceTree = "<group>"; };
-		ACA97C789396A19587FA3F6BEF62589D /* KMUIViewExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KMUIViewExtension-prefix.pch"; sourceTree = "<group>"; };
-		B61C471E2ABB419E90CB093B564CB2CE /* KMUIViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KMUIViewExtension.swift; path = KMUIViewExtension/Classes/KMUIViewExtension.swift; sourceTree = "<group>"; };
+		C11089E3B6D3377296E0A256C082A794 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		C795D826329F4097B5D98BB010C8BA56 /* Pods-KMUIViewExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KMUIViewExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C8F93F60F5B634B03C4260CC3123093B /* Pods-KMUIViewExtension_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KMUIViewExtension_Example.modulemap"; sourceTree = "<group>"; };
 		CE4B59F60DBC6B2E0CD21729CF70218C /* Pods-KMUIViewExtension_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KMUIViewExtension_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CFD5B2C73EE09C5BE8E00F338673DAD7 /* Pods-KMUIViewExtension_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KMUIViewExtension_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D35DB9FE45946C44673481D9B7E9FF6C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		D7DFFF483F594937223D18F798DB77F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		E6ACF46F3440459996E7363308E07705 /* Pods_KMUIViewExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KMUIViewExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE5E939342F7622F1C26A92A155097B /* KMUIViewExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KMUIViewExtension-prefix.pch"; sourceTree = "<group>"; };
+		E6ACF46F3440459996E7363308E07705 /* Pods_KMUIViewExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KMUIViewExtension_Tests.framework; path = "Pods-KMUIViewExtension_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77DC01FB32B3322EFAA1C7C4A8E0E64 /* KMUIViewExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KMUIViewExtension.xcconfig; sourceTree = "<group>"; };
 		E7AE190C40DF94FC950E55E349E0F5E2 /* Pods-KMUIViewExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KMUIViewExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF3F3C3817FE565C70609A2159274289 /* KMUIViewExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = KMUIViewExtension.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F0CB3081D027B6A7111B49D1BC8375CF /* Pods-KMUIViewExtension_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KMUIViewExtension_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,23 +115,19 @@
 		271EAC5A0764564A1EE6AFE5EFB6E800 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DF22894C397F82290A771B271B9B73EF /* KMUIViewExtension */,
+				AD6DC714508C28FA0E1A377740705C4C /* KMUIViewExtension */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		5416AB50B6FDDDD0ECF665BB7E301879 /* Support Files */ = {
+		3637399E643E3B561A709BC5D9CBB4DA /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				82C1A77C13AD845FB99EFB5AB1A4A1DB /* Info.plist */,
-				A279093CA0EC473A17A6CA5F6786B0D1 /* KMUIViewExtension.modulemap */,
-				99A653B101F614023AD7636BE85C86C2 /* KMUIViewExtension.xcconfig */,
-				5D27F6A50BFDCE2F4B2A8477B8FB123A /* KMUIViewExtension-dummy.m */,
-				ACA97C789396A19587FA3F6BEF62589D /* KMUIViewExtension-prefix.pch */,
-				6729749CD42E92670FCA4F6175224F47 /* KMUIViewExtension-umbrella.h */,
+				EF3F3C3817FE565C70609A2159274289 /* KMUIViewExtension.podspec */,
+				C11089E3B6D3377296E0A256C082A794 /* LICENSE */,
+				7F4958B71505B5D7F615ACD5E44E6AAC /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/KMUIViewExtension";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -142,14 +138,18 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6AB754F68619FC92680A5A0D02FFC679 /* Pod */ = {
+		7C5B6E09B2379E834592D83A81A8DB67 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				41602FC536B66AE76050001792669906 /* KMUIViewExtension.podspec */,
-				D35DB9FE45946C44673481D9B7E9FF6C /* LICENSE */,
-				D7DFFF483F594937223D18F798DB77F0 /* README.md */,
+				8C1560A482FC5BD6868195A0D73C9786 /* Info.plist */,
+				5C4F290B654CA6CA139CE5DF8928A234 /* KMUIViewExtension.modulemap */,
+				E77DC01FB32B3322EFAA1C7C4A8E0E64 /* KMUIViewExtension.xcconfig */,
+				5D574755D42CE64F7D447479CD8DD4C6 /* KMUIViewExtension-dummy.m */,
+				DAE5E939342F7622F1C26A92A155097B /* KMUIViewExtension-prefix.pch */,
+				0842BCF2D951970E50C42D485FC1D5D8 /* KMUIViewExtension-umbrella.h */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KMUIViewExtension";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -199,23 +199,23 @@
 			path = "Target Support Files/Pods-KMUIViewExtension_Example";
 			sourceTree = "<group>";
 		};
+		AD6DC714508C28FA0E1A377740705C4C /* KMUIViewExtension */ = {
+			isa = PBXGroup;
+			children = (
+				8DFC9A2571F14B88837503ACAC8A14E8 /* KMUIViewExtension.swift */,
+				3637399E643E3B561A709BC5D9CBB4DA /* Pod */,
+				7C5B6E09B2379E834592D83A81A8DB67 /* Support Files */,
+			);
+			name = KMUIViewExtension;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DF22894C397F82290A771B271B9B73EF /* KMUIViewExtension */ = {
-			isa = PBXGroup;
-			children = (
-				B61C471E2ABB419E90CB093B564CB2CE /* KMUIViewExtension.swift */,
-				6AB754F68619FC92680A5A0D02FFC679 /* Pod */,
-				5416AB50B6FDDDD0ECF665BB7E301879 /* Support Files */,
-			);
-			name = KMUIViewExtension;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		F2572786C351A68A2B2DB92549C4A032 /* Targets Support Files */ = {
@@ -297,7 +297,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 137B4F69339A17C18B9BC2584BFD2B4A /* Build configuration list for PBXNativeTarget "KMUIViewExtension" */;
 			buildPhases = (
-				B43DBDFAA388FD1BDFD4DC7EF88CEF73 /* Sources */,
+				3024434C8F5B7290E89EF8C54DB7346B /* Sources */,
 				446843DBECA53B13B67E9CBF3D106ADE /* Frameworks */,
 				C8B98C91DFB6BF7CC1B6DF7C78823843 /* Headers */,
 			);
@@ -339,20 +339,20 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3024434C8F5B7290E89EF8C54DB7346B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A2699846915DAB7F14BFFF2319B904 /* KMUIViewExtension-dummy.m in Sources */,
+				0C5F0AFFDC8D9A46E6A2B1B70ABBA3A3 /* KMUIViewExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A92BF33D9C22FD5A8B61E39E20AA5A56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				310AE2D55EF20BD5619440CE3A7E0C69 /* Pods-KMUIViewExtension_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B43DBDFAA388FD1BDFD4DC7EF88CEF73 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8119A7B07EE433AB4229E673A3F9CED1 /* KMUIViewExtension-dummy.m in Sources */,
-				46549B8F16B31F8E1466B8C07E035E66 /* KMUIViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,38 +382,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		06DD917813E566EB15AB6AB1CB517659 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99A653B101F614023AD7636BE85C86C2 /* KMUIViewExtension.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KMUIViewExtension/KMUIViewExtension-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KMUIViewExtension/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KMUIViewExtension/KMUIViewExtension.modulemap";
-				PRODUCT_MODULE_NAME = KMUIViewExtension;
-				PRODUCT_NAME = KMUIViewExtension;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		18AD6BE9254D76FC122B76451714CFB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2B4160AB246DFC7DA156EAC088926E40 /* Pods-KMUIViewExtension_Example.debug.xcconfig */;
@@ -551,9 +519,9 @@
 			};
 			name = Debug;
 		};
-		65AC89F748CE467EFB12D940575A98B3 /* Release */ = {
+		64314DD2476A6352F1A6A9195134DE25 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99A653B101F614023AD7636BE85C86C2 /* KMUIViewExtension.xcconfig */;
+			baseConfigurationReference = E77DC01FB32B3322EFAA1C7C4A8E0E64 /* KMUIViewExtension.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -567,7 +535,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/KMUIViewExtension/KMUIViewExtension-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/KMUIViewExtension/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/KMUIViewExtension/KMUIViewExtension.modulemap";
 				PRODUCT_MODULE_NAME = KMUIViewExtension;
@@ -705,14 +673,46 @@
 			};
 			name = Release;
 		};
+		D5F8082256F60FFC6ED0CBC4F3B0743E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E77DC01FB32B3322EFAA1C7C4A8E0E64 /* KMUIViewExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KMUIViewExtension/KMUIViewExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KMUIViewExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KMUIViewExtension/KMUIViewExtension.modulemap";
+				PRODUCT_MODULE_NAME = KMUIViewExtension;
+				PRODUCT_NAME = KMUIViewExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		137B4F69339A17C18B9BC2584BFD2B4A /* Build configuration list for PBXNativeTarget "KMUIViewExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				06DD917813E566EB15AB6AB1CB517659 /* Debug */,
-				65AC89F748CE467EFB12D940575A98B3 /* Release */,
+				D5F8082256F60FFC6ED0CBC4F3B0743E /* Debug */,
+				64314DD2476A6352F1A6A9195134DE25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

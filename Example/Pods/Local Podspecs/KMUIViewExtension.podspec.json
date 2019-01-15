@@ -1,8 +1,8 @@
 {
   "name": "KMUIViewExtension",
   "version": "0.1.0",
-  "summary": "A short description of KMUIViewExtension.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "This library allows you to change the properties of UIView on the storyboard.",
+  "description": "This library allows you to change the properties of UIView on the storyboard.",
   "homepage": "https://github.com/xxminamixx/KMUIViewExtension",
   "license": {
     "type": "MIT",
@@ -16,7 +16,7 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.3"
   },
-  "source_files": "KMUIViewExtension/Classes/**/*"
+  "source_files": "KMUIViewExtension/Classes/KMUIViewExtension.swift"
 }
